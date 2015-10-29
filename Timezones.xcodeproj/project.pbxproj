@@ -15,13 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1100F7C71BE2268F00822573 /* Timezones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Timezones.app; path = "/Users/mpappalardo/Desktop/Timezones/build/Debug-iphoneos/Timezones.app"; sourceTree = "<absolute>"; };
 		1100F7CA1BE2269000822573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1100F7CC1BE2269000822573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1100F7CF1BE2269000822573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1100F7D11BE2269000822573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1100F7D41BE2269000822573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1100F7D61BE2269000822573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1101213C1BE2558300BF05FA /* Timezones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timezones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				1100F7C91BE2268F00822573 /* Timezones */,
+				1101213C1BE2558300BF05FA /* Timezones.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +73,7 @@
 			);
 			name = Timezones;
 			productName = Timezones;
-			productReference = 1100F7C71BE2268F00822573 /* Timezones.app */;
+			productReference = 1101213C1BE2558300BF05FA /* Timezones.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -241,6 +242,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/Timezones/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Timezones;
 				PRODUCT_NAME = Timezones;
@@ -253,6 +255,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/Timezones/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Timezones;
 				PRODUCT_NAME = Timezones;
